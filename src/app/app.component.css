@@ -1,0 +1,40 @@
+.container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(220, 215, 207);
+  border-radius: 20px;
+}
+
+.card-img-top {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: inherit;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn {
+  margin-bottom: 10px;
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+}
